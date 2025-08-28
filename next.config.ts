@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [{ protocol: "https", hostname: "picsum.photos" }],
+    domains: ["ac.goit.global", "notehub-api.goit.study"],
   },
 };
 
@@ -15,3 +16,5 @@ const NextConfig = {
   },
 };
 export default nextConfig;
+
+module.exports = nextConfig;

@@ -35,6 +35,7 @@ const EditProfile = () => {
         <h1 className={css.formTitle}>Edit Profile</h1>
 
         <Image
+          priority={false}
           src="https://ac.goit.global/fullstack/react/default-avatar.jpg"
           alt="User Avatar"
           width={120}
